@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 class ProductForm extends React.Component {
   render() {
@@ -9,26 +9,34 @@ class ProductForm extends React.Component {
           <label>
             Name
             <br />
-            <input type="text" name="name" />
+            <input type="text" name="name" style={{ borderRadius: "10%" }} />
           </label>
         </p>
         <p>
           <label>
             Category
             <br />
-            <input type="text" name="category" />
+            <input
+              type="text"
+              name="category"
+              style={{ borderRadius: "10%" }}
+            />
           </label>
         </p>
         <p>
           <label>
             Price
             <br />
-            <input type="text" name="price" />
+            <input type="text" name="price" style={{ borderRadius: "10%" }} />
           </label>
         </p>
         <p>
           <label>
-            <input type="checkbox" name="stocked" />
+            <input
+              type="checkbox"
+              name="stocked"
+              style={{ borderRadius: "10%" }}
+            />
             &nbsp;In stock?
           </label>
         </p>

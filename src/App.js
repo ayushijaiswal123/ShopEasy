@@ -19,21 +19,22 @@ class App extends Component {
 }
 
 export default App; */
-import React from 'react';
-import Products from './Products.js';
+import React from "react";
+import Products from "./Products.js";
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <header className="App-header"><h1>My React App</h1></header>
+        <header className="App-header">
+          <h1 style={{ color: "blue" }}>My React App</h1>
+        </header>
         <section>
-        <Products ></Products>
+          <Products></Products>
         </section>
-    
       </div>
     );
   }
-} 
+}
 
 export default App;
